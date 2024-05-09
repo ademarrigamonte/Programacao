@@ -1,0 +1,81 @@
+header{
+    font-family: Helvetica;
+    text-align: center;
+    color: #275a0f;
+    background-color: rgb(217, 233, 225);}
+header img {width: 100px;
+    height:100px}
+ul li a{
+        color: #000000;
+        padding: 80px;
+        font-size: 28px;
+        text-decoration: none;
+}
+.femi{
+        padding-left: 200px;
+}
+.vindior{
+    font-family: 'Times New Roman', Times, serif;
+    color: #036908;
+     font-size: 80px;
+    text-decoration: none;
+}
+nav{
+        display: flex;
+        justify-content: space-between;
+    }
+nav ul{
+        display: flex;
+        list-style:none;
+    }
+.search-container {
+    display: flex;
+    margin-top: 20px;
+    padding-left: 38%;
+}
+
+#search-input {
+    height: 20px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+#search-button {
+    height: 42px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #0056b3;
+}
+.product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+#dalia{
+width: 500px;
+height: 500px;
+}
+#buy-button {
+    padding: 10px 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#buy-button:hover {
+    background-color: #0056b3;
+}

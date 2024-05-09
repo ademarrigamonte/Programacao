@@ -1,0 +1,48 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:url('https://www.bing.com/images/search?view=detailV2&ccid=UOWFd%2f%2bt&id=E7548BD0939E69DFDB3B4570507C01F3F1EEE71A&thid=OIP.UOWFd_-tWe_OiAjUFbJIWwHaE8&mediaurl=https%3a%2f%2fstatic.vecteezy.com%2fti%2ffotos-gratis%2fp1%2f2316624-fundo-natural-com-gramado-verde-gratis-foto.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.50e58577ffad59efce8808d415b2485b%3frik%3dGufu8fMBfFBwRQ%26pid%3dImgRaw%26r%3d0&exph=980&expw=1470&q=gramado+verde&simid=608012115337417989&FORM=IRPRST&ck=C07C2D5E122B6D93D1F79EFEEB17D646&selectedIndex=1&itb=0');
+    background-size: cover;
+    z-index: -1; /* Certifica-se de que o fundo está atrás do conteúdo */
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo preto semitransparente */
+    justify-content: center;
+    align-items: center;
+}
+
+.confirmation-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
