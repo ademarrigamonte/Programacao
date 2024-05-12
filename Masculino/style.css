@@ -1,4 +1,3 @@
-@media screen and (max-width: 768px) {
 header{
     font-family: Helvetica;
     text-align: center;
@@ -96,5 +95,4 @@ height: 500px;
 }
 .produto {
     margin-top: 50px; /* Espaço para não cobrir o conteúdo */
-}
 }
