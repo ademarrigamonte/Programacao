@@ -96,3 +96,17 @@ height: 500px;
 .produto {
     margin-top: 50px; /* Espaço para não cobrir o conteúdo */
 }
+@media screen and (min-width: 769px) {
+    .bloco {
+        justify-content: space-between;
+    }
+
+    .product {
+        width: 30%;
+    }
+
+    #dalia {
+        width: 100%;
+        height: auto;
+    }
+}
