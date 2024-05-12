@@ -37,7 +37,7 @@ nav ul{
 #search-input {
     height: 20px;
     padding: 10px;
-    width: 60%;
+    width: 200px;
     border: 1px solid #ccc;
     border-radius: 5px 0 0 5px;
 }
